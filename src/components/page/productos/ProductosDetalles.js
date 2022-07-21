@@ -65,7 +65,7 @@ export const ProductosDetalles = () => {
           </button>
           
           {
-            url ? <img src={images} alt={detalle.title}/> : <img src={detalle.image} alt={detalle.title}/>
+            url ? <img src={images} className="animate__animated animate__fadeInLeft" alt={detalle.title}/> : <img src={detalle.image} className="animate__animated animate__fadeInLeft" alt={detalle.title}/>
           }
           <input type="range" min="1" max="36" step="1" value={url} onChange={handleInput} />
           <div className="description">

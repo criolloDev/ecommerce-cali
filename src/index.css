@@ -34,6 +34,7 @@ header {
   box-sizing: border-box;
   background-color: white;
   box-shadow: 0 10px 10px #08a05c50;
+  z-index: 1000;
 }
 a {
   color: black;

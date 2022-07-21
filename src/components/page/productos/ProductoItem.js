@@ -11,7 +11,7 @@ export const ProductoItem = ({title, image, category, price, id}) => {
 
   return (
     
-    <div key={id} className="producto">
+    <div key={id} className="producto mb-3 animate__animated animate__fadeIn">
       <Link to={`/producto/${id}`}>
       <div className="producto__img">
         <img src={image} alt={title} />
