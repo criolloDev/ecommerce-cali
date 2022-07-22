@@ -34,7 +34,7 @@ header {
   box-sizing: border-box;
   background-color: white;
   box-shadow: 0 10px 10px #08a05c50;
-  z-index: 1000;
+  z-index: 1000;  
 }
 a {
   color: black;
@@ -108,7 +108,7 @@ header ul li a {
   left: 50%;
   transform: translate(-50%, -50%) scale(0.5);
   width: 60%;
-  height: 80%;
+  height: 62%;
   padding: 1.6rem;
   border-radius: 8px;
   overflow-x: scroll;
@@ -137,7 +137,7 @@ header ul li a {
   height: 50px;
   cursor: pointer;
   transform: all 300ms ease-in-out;
-  margin: 0.5rem 0 0 50rem;
+  margin: 0.5rem 52rem;
 }
 .carrito__close box-icon:hover {
   fill: crimson;

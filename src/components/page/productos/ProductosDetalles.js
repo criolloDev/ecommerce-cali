@@ -16,13 +16,13 @@ export const ProductosDetalles = () => {
   useEffect(() =>{
     console.log('re render' , params.id)
     item=0;
-    productos.forEach(producto =>{
+    productos.map(producto =>{
       if(producto.id === parseInt(params.id)){
         setDetalle(producto)
         setUrl(0)
       }
     })
-  },[params.id, productos])
+  },[params.id, detalle])
 
   console.log(url)
 
